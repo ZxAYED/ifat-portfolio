@@ -1,0 +1,34 @@
+{
+  "verified_at_utc": "2026-11-24T12:24:42.047960+00:00",
+  "method": "Fresh ZIP extraction, clean dependency installation, validation and production build.",
+  "node": "v24.22.3",
+  "npm": "11.19.1",
+  "package_lock_sha256": "a36ff6f0835e7b2589aa7ad782261c022b605e2ed53d069596dbf53681d689a9",
+  "commands": [
+    {
+      "command": "npm ci",
+      "exit_code": 0,
+      "duration_seconds": 11.32
+    },
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "duration_seconds": 4.2
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 7.96
+    }
+  ],
+  "passed": true,
+  "build_id": "twdDeBUyYNo6awt0lzqpc",
+  "scope": "Local production build and checks; live SMTP delivery and real-user Core Web Vitals are not claimed.",
+  "application_inputs_match_tested_extraction": true,
+  "application_input_count": 77,
+  "application_inputs_sha256": "685179d1ff66c36d08c53f428ad32d1f4a4be1e7f1450d8f8959b785a587e7d7",
+  "notes": [
+    "This report and final documentation were added after validation; application code, assets, configuration and dependency lockfile match the tested extraction.",
+    "Dependencies and build output are intentionally excluded from the source ZIP. Run npm ci before starting."
+  ]
+}

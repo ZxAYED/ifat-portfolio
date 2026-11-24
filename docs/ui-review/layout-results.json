@@ -1,0 +1,402 @@
+[
+  {
+    "route": "home",
+    "width": 1440,
+    "theme": "dark",
+    "images": [
+      {
+        "alt": "An identity board with a paired geometric mark, an italic ifat wordmark and color-study panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A schematic carton outline and an enlarged label composition with contrasting type and green panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Four coordinated campaign-style artboards with typographic messages and green geometric forms",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A flat T-shirt illustration with Ideas take shape lettering, beside the graphic on a light panel",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Brand identity concept study",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Portrait of Ifat Ibrahim",
+        "ok": true,
+        "src": "data:image/webp;base64,UklGRjJNAQBXRUJQVlA4WA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      }
+    ],
+    "overflow": 0,
+    "headerHeight": 80
+  },
+  {
+    "route": "home",
+    "width": 1440,
+    "theme": "light",
+    "images": [
+      {
+        "alt": "An identity board with a paired geometric mark, an italic ifat wordmark and color-study panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A schematic carton outline and an enlarged label composition with contrasting type and green panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Four coordinated campaign-style artboards with typographic messages and green geometric forms",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A flat T-shirt illustration with Ideas take shape lettering, beside the graphic on a light panel",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Brand identity concept study",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Portrait of Ifat Ibrahim",
+        "ok": true,
+        "src": "data:image/webp;base64,UklGRjJNAQBXRUJQVlA4WA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      }
+    ],
+    "overflow": 0,
+    "headerHeight": 80
+  },
+  {
+    "route": "home",
+    "width": 390,
+    "theme": "dark",
+    "images": [
+      {
+        "alt": "An identity board with a paired geometric mark, an italic ifat wordmark and color-study panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A schematic carton outline and an enlarged label composition with contrasting type and green panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Four coordinated campaign-style artboards with typographic messages and green geometric forms",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A flat T-shirt illustration with Ideas take shape lettering, beside the graphic on a light panel",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Brand identity concept study",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Portrait of Ifat Ibrahim",
+        "ok": true,
+        "src": "data:image/webp;base64,UklGRjJNAQBXRUJQVlA4WA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      }
+    ],
+    "overflow": 0,
+    "headerHeight": 72
+  },
+  {
+    "route": "home",
+    "width": 390,
+    "theme": "light",
+    "images": [
+      {
+        "alt": "An identity board with a paired geometric mark, an italic ifat wordmark and color-study panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A schematic carton outline and an enlarged label composition with contrasting type and green panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Four coordinated campaign-style artboards with typographic messages and green geometric forms",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A flat T-shirt illustration with Ideas take shape lettering, beside the graphic on a light panel",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Brand identity concept study",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Portrait of Ifat Ibrahim",
+        "ok": true,
+        "src": "data:image/webp;base64,UklGRjJNAQBXRUJQVlA4WA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      }
+    ],
+    "overflow": 0,
+    "headerHeight": 72
+  },
+  {
+    "route": "home",
+    "width": 320,
+    "theme": "dark",
+    "images": [
+      {
+        "alt": "An identity board with a paired geometric mark, an italic ifat wordmark and color-study panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A schematic carton outline and an enlarged label composition with contrasting type and green panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Four coordinated campaign-style artboards with typographic messages and green geometric forms",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A flat T-shirt illustration with Ideas take shape lettering, beside the graphic on a light panel",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Brand identity concept study",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Portrait of Ifat Ibrahim",
+        "ok": true,
+        "src": "data:image/webp;base64,UklGRjJNAQBXRUJQVlA4WA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      },
+      {
+        "alt": "",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      }
+    ],
+    "overflow": 0,
+    "headerHeight": 72
+  },
+  {
+    "route": "study",
+    "width": 1440,
+    "theme": "dark",
+    "images": [
+      {
+        "alt": "An identity board with a paired geometric mark on green, an italic ifat wordmark on off-white, and two color-study panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "An enlarged detail of the paired geometric mark on green",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "An enlarged detail of the italic ifat wordmark with its small sans-serif supporting type",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A schematic carton outline and a tilted green-and-off-white label panel, with a large headline and smaller information blocks",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A dark T-shirt illustration with Ideas take shape lettering and three green shapes, beside the same graphic on a light panel",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Four coordinated campaign-style artboards with large typographic messages and geometric forms in green, ink, and pale neutrals",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      }
+    ],
+    "overflow": 0,
+    "headerHeight": 80,
+    "motionState": "enhanced"
+  },
+  {
+    "route": "study",
+    "width": 390,
+    "theme": "light",
+    "images": [
+      {
+        "alt": "An identity board with a paired geometric mark on green, an italic ifat wordmark on off-white, and two color-study panels",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "An enlarged detail of the paired geometric mark on green",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "An enlarged detail of the italic ifat wordmark with its small sans-serif supporting type",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A schematic carton outline and a tilted green-and-off-white label panel, with a large headline and smaller information blocks",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "A dark T-shirt illustration with Ideas take shape lettering and three green shapes, beside the same graphic on a light panel",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      },
+      {
+        "alt": "Four coordinated campaign-style artboards with large typographic messages and geometric forms in green, ink, and pale neutrals",
+        "ok": true,
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR"
+      }
+    ],
+    "overflow": 0,
+    "headerHeight": 72,
+    "motionState": "enhanced"
+  }
+]

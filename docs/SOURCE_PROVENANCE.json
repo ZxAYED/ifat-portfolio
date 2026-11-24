@@ -1,0 +1,664 @@
+{
+  "verified_at_utc": "2026-11-24T12:03:42.806113+00:00",
+  "origin": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site",
+  "commit": "09d6bde0f218adb9020b994a28ddbe100175c586",
+  "resources": [
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/",
+      "source_path": "dist/index.html",
+      "source_bytes": 24329,
+      "source_sha256": "0fe0b2f6aa9e1432abc11c388e36449a879fafa45c87951249ca475568d8b0c3",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/",
+      "response_content_type": "text/html",
+      "live_bytes": 24329,
+      "live_sha256": "0fe0b2f6aa9e1432abc11c388e36449a879fafa45c87951249ca475568d8b0c3",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/work/visual-language-study/",
+      "source_path": "dist/work/visual-language-study/index.html",
+      "source_bytes": 13263,
+      "source_sha256": "a566aed13db6ed2189f2522e5563aee2cfa708f97ff95b0d98ca713e98ca65f7",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/work/visual-language-study/",
+      "response_content_type": "text/html",
+      "live_bytes": 13263,
+      "live_sha256": "a566aed13db6ed2189f2522e5563aee2cfa708f97ff95b0d98ca713e98ca65f7",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/favicon.svg",
+      "source_path": "dist/assets/favicon.svg",
+      "source_bytes": 249,
+      "source_sha256": "dc025eacca54bff85eccf8a2477506fb46fd00d18bc5ed6329a093a9ea5e02b9",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/favicon.svg",
+      "response_content_type": "image/svg+xml",
+      "live_bytes": 249,
+      "live_sha256": "dc025eacca54bff85eccf8a2477506fb46fd00d18bc5ed6329a093a9ea5e02b9",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/apple-touch-icon.png",
+      "source_path": "dist/assets/apple-touch-icon.png",
+      "source_bytes": 1053,
+      "source_sha256": "803de05d3ad9778605c34e88c5afa08ea52cb3afb66f1473d2435cd678c1dc30",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/apple-touch-icon.png",
+      "response_content_type": "image/png",
+      "live_bytes": 1053,
+      "live_sha256": "803de05d3ad9778605c34e88c5afa08ea52cb3afb66f1473d2435cd678c1dc30",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/fonts/studio-sans-regular.woff",
+      "source_path": "dist/assets/fonts/studio-sans-regular.woff",
+      "source_bytes": 19772,
+      "source_sha256": "77b8a561821f1952f0f79d31c081a7a7fd46ff8309b2e88145577c284192aed7",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/fonts/studio-sans-regular.woff",
+      "response_content_type": "application/octet-stream",
+      "live_bytes": 19772,
+      "live_sha256": "77b8a561821f1952f0f79d31c081a7a7fd46ff8309b2e88145577c284192aed7",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/fonts/studio-sans-bold.woff",
+      "source_path": "dist/assets/fonts/studio-sans-bold.woff",
+      "source_bytes": 19664,
+      "source_sha256": "b163ad16a674d3ce7fdf1e1ad00ea137ac76bdf619c316e0c6f317b7cba48371",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/fonts/studio-sans-bold.woff",
+      "response_content_type": "application/octet-stream",
+      "live_bytes": 19664,
+      "live_sha256": "b163ad16a674d3ce7fdf1e1ad00ea137ac76bdf619c316e0c6f317b7cba48371",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/fonts/studio-serif-italic.woff",
+      "source_path": "dist/assets/fonts/studio-serif-italic.woff",
+      "source_bytes": 24512,
+      "source_sha256": "774a120421cc865e1e23fe7b2123a55ff3fe8e8e9d77a1d11cbed60ba27bc12f",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/fonts/studio-serif-italic.woff",
+      "response_content_type": "application/octet-stream",
+      "live_bytes": 24512,
+      "live_sha256": "774a120421cc865e1e23fe7b2123a55ff3fe8e8e9d77a1d11cbed60ba27bc12f",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/site.min.css?v=13f4c2f0dfe1",
+      "source_path": "dist/site.min.css",
+      "source_bytes": 73058,
+      "source_sha256": "13f4c2f0dfe16bb28792a94f522fbb4d5785f3a74dea14362dd864f5d054e466",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/site.min.css?v=13f4c2f0dfe1",
+      "response_content_type": "text/css",
+      "live_bytes": 73058,
+      "live_sha256": "13f4c2f0dfe16bb28792a94f522fbb4d5785f3a74dea14362dd864f5d054e466",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/no-script.css?v=7ff7113b8179",
+      "source_path": "dist/no-script.css",
+      "source_bytes": 628,
+      "source_sha256": "7ff7113b8179b2b0075d9ff8615835eee252606dfc3191b927db06e1e0f16eff",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/no-script.css?v=7ff7113b8179",
+      "response_content_type": "text/css",
+      "live_bytes": 628,
+      "live_sha256": "7ff7113b8179b2b0075d9ff8615835eee252606dfc3191b927db06e1e0f16eff",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/main.min.js?v=50581360a618",
+      "source_path": "dist/main.min.js",
+      "source_bytes": 17921,
+      "source_sha256": "50581360a6187a41aef66672270d1cd441c4d1792db0f3a75ae4ffd778c82399",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/main.min.js?v=50581360a618",
+      "response_content_type": "text/javascript",
+      "live_bytes": 17921,
+      "live_sha256": "50581360a6187a41aef66672270d1cd441c4d1792db0f3a75ae4ffd778c82399",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/identity-study.svg",
+      "source_path": "dist/assets/identity-study.svg",
+      "source_bytes": 2378,
+      "source_sha256": "ec03aedc8c702c627f81f0d9a45bb4154e1598bd768dcf2973875ee179f08901",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/identity-study.svg",
+      "response_content_type": "image/svg+xml",
+      "live_bytes": 2378,
+      "live_sha256": "ec03aedc8c702c627f81f0d9a45bb4154e1598bd768dcf2973875ee179f08901",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/packaging-study.svg",
+      "source_path": "dist/assets/packaging-study.svg",
+      "source_bytes": 3461,
+      "source_sha256": "951e19359ce38ee147af6ff2865221e177307c03bf3bc5d14b2a09a80f46c671",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/packaging-study.svg",
+      "response_content_type": "image/svg+xml",
+      "live_bytes": 3461,
+      "live_sha256": "951e19359ce38ee147af6ff2865221e177307c03bf3bc5d14b2a09a80f46c671",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/campaign-study.svg",
+      "source_path": "dist/assets/campaign-study.svg",
+      "source_bytes": 3243,
+      "source_sha256": "1d3cc38ab904c124ab0f389904844bfb650adde10a110411cba39e768d96f2f9",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/campaign-study.svg",
+      "response_content_type": "image/svg+xml",
+      "live_bytes": 3243,
+      "live_sha256": "1d3cc38ab904c124ab0f389904844bfb650adde10a110411cba39e768d96f2f9",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/apparel-study.svg",
+      "source_path": "dist/assets/apparel-study.svg",
+      "source_bytes": 2829,
+      "source_sha256": "19eb3f0f7a11cb74cda4951636d60bebf781acf91beb8136b8f8244c83d143bf",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/apparel-study.svg",
+      "response_content_type": "image/svg+xml",
+      "live_bytes": 2829,
+      "live_sha256": "19eb3f0f7a11cb74cda4951636d60bebf781acf91beb8136b8f8244c83d143bf",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/ifat-ibrahim-800.webp",
+      "source_path": "dist/assets/ifat-ibrahim-800.webp",
+      "source_bytes": 85306,
+      "source_sha256": "34a2d5f63e0f599859060d7f0c3d51255eec6adec704a0385bcf7f3c5f3220b9",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/ifat-ibrahim-800.webp",
+      "response_content_type": "image/webp",
+      "live_bytes": 85306,
+      "live_sha256": "34a2d5f63e0f599859060d7f0c3d51255eec6adec704a0385bcf7f3c5f3220b9",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/study.min.css?v=15150a2524ed",
+      "source_path": "dist/study.min.css",
+      "source_bytes": 45760,
+      "source_sha256": "15150a2524ed1bb886c6140d9b54fb62108770d111cf003976165d747d7fb435",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/study.min.css?v=15150a2524ed",
+      "response_content_type": "text/css",
+      "live_bytes": 45760,
+      "live_sha256": "15150a2524ed1bb886c6140d9b54fb62108770d111cf003976165d747d7fb435",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/identity-mark-detail.svg",
+      "source_path": "dist/assets/identity-mark-detail.svg",
+      "source_bytes": 2359,
+      "source_sha256": "527fb97fd177400280a6d8d7ad3ae977334f52bc1f9aab7c8c99b691604352c4",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/identity-mark-detail.svg",
+      "response_content_type": "image/svg+xml",
+      "live_bytes": 2359,
+      "live_sha256": "527fb97fd177400280a6d8d7ad3ae977334f52bc1f9aab7c8c99b691604352c4",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/identity-type-detail.svg",
+      "source_path": "dist/assets/identity-type-detail.svg",
+      "source_bytes": 2357,
+      "source_sha256": "3adb399c363901f05fbc1edc7136f9fad954e0307f97c555f1de0cc8f51959d3",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/identity-type-detail.svg",
+      "response_content_type": "image/svg+xml",
+      "live_bytes": 2357,
+      "live_sha256": "3adb399c363901f05fbc1edc7136f9fad954e0307f97c555f1de0cc8f51959d3",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/ifat-ibrahim-480.webp",
+      "source_path": "dist/assets/ifat-ibrahim-480.webp",
+      "source_bytes": 36232,
+      "source_sha256": "38cce83fef7a43b132c1d46c9a9799d36e39e21ccc0131518d482dfe9159e441",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/ifat-ibrahim-480.webp",
+      "response_content_type": "image/webp",
+      "live_bytes": 36232,
+      "live_sha256": "38cce83fef7a43b132c1d46c9a9799d36e39e21ccc0131518d482dfe9159e441",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/ifat-social.png",
+      "source_path": "dist/assets/ifat-social.png",
+      "source_bytes": 34972,
+      "source_sha256": "414ad38cdafcbccc300d668330ca56f731e10a934768a2c22d83be09b6fc955f",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/assets/ifat-social.png",
+      "response_content_type": "image/png",
+      "live_bytes": 34972,
+      "live_sha256": "414ad38cdafcbccc300d668330ca56f731e10a934768a2c22d83be09b6fc955f",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/robots.txt",
+      "source_path": "dist/robots.txt",
+      "source_bytes": 109,
+      "source_sha256": "113d8af0e7f721052365ac8f80c0566e0a69b29ffc0e754a563f5516842d37ee",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/robots.txt",
+      "response_content_type": "text/plain",
+      "live_bytes": 109,
+      "live_sha256": "113d8af0e7f721052365ac8f80c0566e0a69b29ffc0e754a563f5516842d37ee",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/sitemap.xml",
+      "source_path": "dist/sitemap.xml",
+      "source_bytes": 323,
+      "source_sha256": "84e604dcbea6253d24a658a2bca56ab8eccd5bb182ffed6e7da0d3f4854e6d52",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/sitemap.xml",
+      "response_content_type": "text/xml",
+      "live_bytes": 323,
+      "live_sha256": "84e604dcbea6253d24a658a2bca56ab8eccd5bb182ffed6e7da0d3f4854e6d52",
+      "byte_identical": true
+    },
+    {
+      "url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/animation.js?v=ff4b58f86b67",
+      "source_path": "dist/animation.js",
+      "source_bytes": 231550,
+      "source_sha256": "ff4b58f86b6719512c69e9a2889bb3d3bd1503df41ee935c45326cf3a00ae365",
+      "http_status": 200,
+      "final_url": "https://ifat-ibrahim-graphic-design.flowy-bun-1694.chatgpt.site/animation.js?v=ff4b58f86b67",
+      "response_content_type": "text/javascript",
+      "live_bytes": 231550,
+      "live_sha256": "ff4b58f86b6719512c69e9a2889bb3d3bd1503df41ee935c45326cf3a00ae365",
+      "byte_identical": true
+    }
+  ],
+  "schema_version": 1,
+  "site_project_id": "appgprj_6b01e24d7fc881918aa2fb629687cb7d",
+  "published_version_number": 7,
+  "source_commit_timestamp": "2026-11-22T13:02:07+06:00",
+  "source_architecture": "Static HTML/CSS/JavaScript; GSAP, Motion DOM API, Lenis; not originally Next.js",
+  "previous_audited_commit": "151c7697b19628764459359a7db435dfe94b7cf4",
+  "verification_method": "Anonymous HTTPS GET, without credentials or cookies. Compare response bytes and SHA-256 with tracked dist files at the exact source commit.",
+  "summary": {
+    "resources_checked": 23,
+    "http_200_count": 23,
+    "byte_identical_count": 23,
+    "all_checked_resources_identical": true,
+    "earlier_root_capture_matches": true,
+    "homepage_sha256": "0fe0b2f6aa9e1432abc11c388e36449a879fafa45c87951249ca475568d8b0c3"
+  },
+  "original_export": {
+    "directory_name": "ifat-original-static-source",
+    "export_method": "git archive --format=tar",
+    "file_count": 70,
+    "all_files_match_commit": true,
+    "git_metadata_included": false,
+    "secret_filename_findings": [],
+    "secret_signature_findings": [],
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 65,
+        "sha256": "9be6370751391403f052b537435a7c56b40e2b431c480e4d17cfbad9ee0c4c9d"
+      },
+      {
+        "path": ".openai/hosting.json",
+        "bytes": 144,
+        "sha256": "e63728db7454b5b145a8696ea7314a8b4d57e08328796174efe9e16b9f158178"
+      },
+      {
+        "path": "README.md",
+        "bytes": 9989,
+        "sha256": "b37517cd3f6ed9a6476104ab1cf107353c70b13aaf2f45c5fb3625979293efda"
+      },
+      {
+        "path": "dist/404.html",
+        "bytes": 3273,
+        "sha256": "8dfb99d8766eee7ccff1e257f027f3d86bed2176842e366c4d2ba3664777f2eb"
+      },
+      {
+        "path": "dist/animation.css",
+        "bytes": 457,
+        "sha256": "1a72e31688037f1f8171c7dfbcabfcf501df208b0c8a0e135e37f5a5b13fe307"
+      },
+      {
+        "path": "dist/animation.js",
+        "bytes": 231550,
+        "sha256": "ff4b58f86b6719512c69e9a2889bb3d3bd1503df41ee935c45326cf3a00ae365"
+      },
+      {
+        "path": "dist/animation.js.LEGAL.txt",
+        "bytes": 1041,
+        "sha256": "80659386c80b6339a91375c166850f49951aec8d1587d01994545e812f5a1045"
+      },
+      {
+        "path": "dist/assets/animation-licenses.txt",
+        "bytes": 2447,
+        "sha256": "3cfe1cef210e176e47f5071c1fe21f7cbd41d64dce0e16e04baadb1b3c56e4e8"
+      },
+      {
+        "path": "dist/assets/apparel-study.svg",
+        "bytes": 2829,
+        "sha256": "19eb3f0f7a11cb74cda4951636d60bebf781acf91beb8136b8f8244c83d143bf"
+      },
+      {
+        "path": "dist/assets/apple-touch-icon.png",
+        "bytes": 1053,
+        "sha256": "803de05d3ad9778605c34e88c5afa08ea52cb3afb66f1473d2435cd678c1dc30"
+      },
+      {
+        "path": "dist/assets/campaign-study.svg",
+        "bytes": 3243,
+        "sha256": "1d3cc38ab904c124ab0f389904844bfb650adde10a110411cba39e768d96f2f9"
+      },
+      {
+        "path": "dist/assets/favicon.svg",
+        "bytes": 249,
+        "sha256": "dc025eacca54bff85eccf8a2477506fb46fd00d18bc5ed6329a093a9ea5e02b9"
+      },
+      {
+        "path": "dist/assets/fonts/LICENSE.txt",
+        "bytes": 5208,
+        "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+      },
+      {
+        "path": "dist/assets/fonts/studio-sans-bold.woff",
+        "bytes": 19664,
+        "sha256": "b163ad16a674d3ce7fdf1e1ad00ea137ac76bdf619c316e0c6f317b7cba48371"
+      },
+      {
+        "path": "dist/assets/fonts/studio-sans-regular.woff",
+        "bytes": 19772,
+        "sha256": "77b8a561821f1952f0f79d31c081a7a7fd46ff8309b2e88145577c284192aed7"
+      },
+      {
+        "path": "dist/assets/fonts/studio-serif-italic.woff",
+        "bytes": 24512,
+        "sha256": "774a120421cc865e1e23fe7b2123a55ff3fe8e8e9d77a1d11cbed60ba27bc12f"
+      },
+      {
+        "path": "dist/assets/identity-mark-detail.svg",
+        "bytes": 2359,
+        "sha256": "527fb97fd177400280a6d8d7ad3ae977334f52bc1f9aab7c8c99b691604352c4"
+      },
+      {
+        "path": "dist/assets/identity-study.svg",
+        "bytes": 2378,
+        "sha256": "ec03aedc8c702c627f81f0d9a45bb4154e1598bd768dcf2973875ee179f08901"
+      },
+      {
+        "path": "dist/assets/identity-type-detail.svg",
+        "bytes": 2357,
+        "sha256": "3adb399c363901f05fbc1edc7136f9fad954e0307f97c555f1de0cc8f51959d3"
+      },
+      {
+        "path": "dist/assets/ifat-ibrahim-480.webp",
+        "bytes": 36232,
+        "sha256": "38cce83fef7a43b132c1d46c9a9799d36e39e21ccc0131518d482dfe9159e441"
+      },
+      {
+        "path": "dist/assets/ifat-ibrahim-800.webp",
+        "bytes": 85306,
+        "sha256": "34a2d5f63e0f599859060d7f0c3d51255eec6adec704a0385bcf7f3c5f3220b9"
+      },
+      {
+        "path": "dist/assets/ifat-portfolio-social.jpg",
+        "bytes": 60968,
+        "sha256": "b94cc721f96fa6af8474934168f03138a5ec5d90e63bb649a6362a25ea349acf"
+      },
+      {
+        "path": "dist/assets/ifat-social.png",
+        "bytes": 34972,
+        "sha256": "414ad38cdafcbccc300d668330ca56f731e10a934768a2c22d83be09b6fc955f"
+      },
+      {
+        "path": "dist/assets/ifat-social.svg",
+        "bytes": 19236,
+        "sha256": "fce647c3922935839968d348d64240789cc0f8275d60057fdff4bfe38931bdae"
+      },
+      {
+        "path": "dist/assets/packaging-study.svg",
+        "bytes": 3461,
+        "sha256": "951e19359ce38ee147af6ff2865221e177307c03bf3bc5d14b2a09a80f46c671"
+      },
+      {
+        "path": "dist/content.js",
+        "bytes": 4312,
+        "sha256": "31bf5dfe7b814915cef692d9eee868a8dcc24a27c18087d92b932326e1607b60"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 24329,
+        "sha256": "0fe0b2f6aa9e1432abc11c388e36449a879fafa45c87951249ca475568d8b0c3"
+      },
+      {
+        "path": "dist/main.js",
+        "bytes": 10765,
+        "sha256": "cf2f6e9047a4c35dcd418133d4187c6f07d48dc26bc061646493872952411115"
+      },
+      {
+        "path": "dist/main.min.js",
+        "bytes": 17921,
+        "sha256": "50581360a6187a41aef66672270d1cd441c4d1792db0f3a75ae4ffd778c82399"
+      },
+      {
+        "path": "dist/no-script.css",
+        "bytes": 628,
+        "sha256": "7ff7113b8179b2b0075d9ff8615835eee252606dfc3191b927db06e1e0f16eff"
+      },
+      {
+        "path": "dist/polish.css",
+        "bytes": 19285,
+        "sha256": "3172a031df81634d002959219739340716d0ea8de949bfa0921feb62511915ae"
+      },
+      {
+        "path": "dist/portrait.css",
+        "bytes": 2384,
+        "sha256": "17de3f81fef14494e18e98391cf7847dbd8bab652b97267618158b093f2c861f"
+      },
+      {
+        "path": "dist/project-viewer.css",
+        "bytes": 8448,
+        "sha256": "66d917beb27648bb081f79b591890dc10f66da2879cf48737c809aec741158b7"
+      },
+      {
+        "path": "dist/project-viewer.js",
+        "bytes": 12999,
+        "sha256": "265f1f222f4cdc1a5ef884b954226517b8f401613c36732a61f4c5df73edab76"
+      },
+      {
+        "path": "dist/robots.txt",
+        "bytes": 109,
+        "sha256": "113d8af0e7f721052365ac8f80c0566e0a69b29ffc0e754a563f5516842d37ee"
+      },
+      {
+        "path": "dist/scene-polish.css",
+        "bytes": 931,
+        "sha256": "94da8343dd3ee957867ff2c77c7a67b2f41bbba37a6c89a734fbc7b76a289da3"
+      },
+      {
+        "path": "dist/site.min.css",
+        "bytes": 73058,
+        "sha256": "13f4c2f0dfe16bb28792a94f522fbb4d5785f3a74dea14362dd864f5d054e466"
+      },
+      {
+        "path": "dist/sitemap.xml",
+        "bytes": 323,
+        "sha256": "84e604dcbea6253d24a658a2bca56ab8eccd5bb182ffed6e7da0d3f4854e6d52"
+      },
+      {
+        "path": "dist/study.css",
+        "bytes": 8509,
+        "sha256": "203b4d6aa6b98df28d0b4448f7fa0ef4547cf6cccb91530b4daff478703ae907"
+      },
+      {
+        "path": "dist/study.min.css",
+        "bytes": 45760,
+        "sha256": "15150a2524ed1bb886c6140d9b54fb62108770d111cf003976165d747d7fb435"
+      },
+      {
+        "path": "dist/styles.css",
+        "bytes": 45978,
+        "sha256": "17bfa85b4798d55ba24d261db29ab5546506115f7d36e01ac06fa425a572e773"
+      },
+      {
+        "path": "dist/work/visual-language-study/index.html",
+        "bytes": 13263,
+        "sha256": "a566aed13db6ed2189f2522e5563aee2cfa708f97ff95b0d98ca713e98ca65f7"
+      },
+      {
+        "path": "docs/CONTENT_NEEDED.md",
+        "bytes": 5045,
+        "sha256": "7dd5ea7d5d4f5cd784cedd875c0427d03f2e5e95c054b99832d9589f63da1b55"
+      },
+      {
+        "path": "docs/DESIGN_DIRECTION.md",
+        "bytes": 6984,
+        "sha256": "377c7e74ead48e8135e7937b87f9ad1d19800d5bce170f21a069019b453ea4e6"
+      },
+      {
+        "path": "docs/LAUNCH.md",
+        "bytes": 6120,
+        "sha256": "15ac27a0b22fd1b307cac42be65a75be6a91e55999cc22ccc27e36e8beb1d14f"
+      },
+      {
+        "path": "docs/MOTION.md",
+        "bytes": 15048,
+        "sha256": "f0ae2c0ce396eb7f9c0f12936064d61855dd48a683e417a54e51a731aa2fc88c"
+      },
+      {
+        "path": "docs/VERIFICATION.md",
+        "bytes": 13209,
+        "sha256": "d739289b1b7698f963e76ba66f31a46b2b2aa2083a6b9050193248011fa1bdcb"
+      },
+      {
+        "path": "docs/VERIFICATION_ANIMATION.md",
+        "bytes": 6269,
+        "sha256": "ef73d36448d04593523ed3b967b4ab7f9bca996041a11867701c94b2190aa57b"
+      },
+      {
+        "path": "docs/VERIFICATION_INITIAL.md",
+        "bytes": 3258,
+        "sha256": "8e4d427abe6d7270286e92d2af25feca845ae1c7440ee78c1af31ba10163d972"
+      },
+      {
+        "path": "docs/VERIFICATION_REVIEW_BASELINE.md",
+        "bytes": 9604,
+        "sha256": "4a727bbf75467059d38499f2ce3c1c390253eb87bccc715fe4198345624f39b0"
+      },
+      {
+        "path": "docs/evidence/final-bundled-layout-checks.json",
+        "bytes": 7846,
+        "sha256": "a968c018e9fe17dfc6ac1c0c88d93ec929c5d7d42f5bd4eb33855f67f8fc3c11"
+      },
+      {
+        "path": "docs/evidence/ifat-about-desktop.jpg",
+        "bytes": 69557,
+        "sha256": "c93fc8a8daee362d40517355e33ff124336514cbe0ab172cc466d2edad1f170b"
+      },
+      {
+        "path": "docs/evidence/ifat-gallery-desktop.jpg",
+        "bytes": 77029,
+        "sha256": "844eb11ae8bdc7b20280570be69a52d2f395f10dddc585aa4688db7ad6623e6c"
+      },
+      {
+        "path": "docs/evidence/ifat-responsive-review.jpg",
+        "bytes": 112615,
+        "sha256": "6c0c878992775a33d45606cf397e7376b3d23cdb31f970c101abac2eb996eba6"
+      },
+      {
+        "path": "docs/evidence/ifat-study-desktop.jpg",
+        "bytes": 63293,
+        "sha256": "248255a7a8a2dbde66805067986a61aa9b356469afbca64ebffebdb4e15ae078"
+      },
+      {
+        "path": "docs/evidence/layout-checks.json",
+        "bytes": 29991,
+        "sha256": "9b2f49cfb2cd5d122c1e2aacbd0eb19f613f482f1ed3e2311a9132b4c50a5d83"
+      },
+      {
+        "path": "docs/evidence/merged-layout-checks.json",
+        "bytes": 14458,
+        "sha256": "990f4149479d782e0f5d182e9e5ec4450216b32c62a6e9066270144ab5ce4d4d"
+      },
+      {
+        "path": "docs/evidence/wheel-desktop.json",
+        "bytes": 3501,
+        "sha256": "7513687270b30d7b3cab3454f99c33419ad9dfd44d4a8d84e1d76e04b43f9ca5"
+      },
+      {
+        "path": "docs/evidence/wheel-narrow.json",
+        "bytes": 3508,
+        "sha256": "200382a64e0008ad3e8643fd6b28ae78f05c99f0758f77d2cfcc0f854fd0372b"
+      },
+      {
+        "path": "package-lock.json",
+        "bytes": 18227,
+        "sha256": "c3106fa40b22d920c6c4f3aab32fbfcf36b18074d98e7ea01500508bedb39f37"
+      },
+      {
+        "path": "package.json",
+        "bytes": 346,
+        "sha256": "d39a263c813b4e7cb6cbfa1624416a2de68dca5cc71fd83a21a8bb80940f8e30"
+      },
+      {
+        "path": "scripts/build-social.mjs",
+        "bytes": 4916,
+        "sha256": "bd464da8613ba1bd3ea2823960ed52bf146e2cc2916ff0b601a41a144158b06c"
+      },
+      {
+        "path": "scripts/build-study.mjs",
+        "bytes": 12392,
+        "sha256": "b3a7f24fceed331a42b85155c4a37c49365b0c438c0bd43a9b4ccfe8e7c19eea"
+      },
+      {
+        "path": "scripts/build.mjs",
+        "bytes": 5626,
+        "sha256": "8a094064749aa492dfc12f97b028fc84afb2567d37400282019f82f97747ae28"
+      },
+      {
+        "path": "scripts/check.mjs",
+        "bytes": 13298,
+        "sha256": "89698180e0411a48f76a20427af0c38a4b31ef05cba412aa026e412418ec6795"
+      },
+      {
+        "path": "src/animation/index.js",
+        "bytes": 2013,
+        "sha256": "419255492c525e909321b0b7e661d0f2b372810f9a3860f35993588b7f1444c8"
+      },
+      {
+        "path": "src/animation/interactions.js",
+        "bytes": 18357,
+        "sha256": "d8cc4c24b3c3461063a464fedc4cf52eb1fcf1d6d5d9494093c4330f7fd6a62f"
+      },
+      {
+        "path": "src/animation/scenes.js",
+        "bytes": 18847,
+        "sha256": "4111b5766fc74492088ea6b49ff0b36e433ded32982c5e20fabf2b0bade3d576"
+      },
+      {
+        "path": "src/animation/scroll.js",
+        "bytes": 5189,
+        "sha256": "91a1e46dc2e3076cb96f352ae50eb2015abed531c5e052760b58b2e7c31c0d84"
+      },
+      {
+        "path": "src/assets/ifat-ibrahim.png",
+        "bytes": 1751885,
+        "sha256": "6763712866d3e603435d6add39ca26175512a928f21e56f9e07580e73d447a89"
+      }
+    ]
+  },
+  "limitations": [
+    "This proves source provenance and fetched resource equality at the recorded time. It is not proof of browser rendering or runtime behavior of the new Next.js port.",
+    "The original source export contains the static implementation as published, including its existing contact and accessibility limitations.",
+    "No SMTP credentials were obtained, stored, or used by this provenance check."
+  ]
+}
