@@ -1,0 +1,16 @@
+/* Created by scene setup only. Without the enhancement, authored HTML stays visible. */
+.scene-line-mask{display:block;overflow:clip;overflow-clip-margin:.16em}
+.scene-line-inner{display:block;transform-origin:0 100%}
+.footer-name.scene-text{overflow:visible}
+.footer-name .scene-line-mask,.footer-name .scene-line-inner{color:inherit}
+html[data-scenes-managed="true"] .scene-line-inner,
+html[data-scenes-managed="true"] .artwork-frame{backface-visibility:hidden}
+html[data-scenes-managed="true"] .lab-orbit,
+html[data-scenes-managed="true"] .playground-board,
+html[data-process-managed="true"] .process-art-caption{transition-property:none}
+@media(prefers-reduced-motion:reduce){html:not([data-motion-mode]) .scene-line-mask{overflow:visible}}
+html[data-motion-mode="reduced"] .scene-line-mask{overflow:visible}
+@media print{
+ .scene-line-mask{overflow:visible}
+ .scene-line-inner{transform:none!important;opacity:1!important}
+}

@@ -1,0 +1,83 @@
+/* Portrait row: existing About heading above, biography beside the photo. */
+.about-section { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.about-section > .about-intro { grid-column: 1 / -1; }
+.about-section > .about-body { align-self: center; padding-top: 0; }
+.about-section > .designer-portrait { margin: 0; }
+
+/* The supplied photograph remains a complete, uncropped transparent image. */
+.designer-portrait {
+  min-width: 0;
+  width: min(100%, 480px);
+  align-self: start;
+  margin: 34px 0 0;
+  padding: 10px;
+  border: 1px solid rgb(16 37 30 / .18);
+  background: var(--paper);
+  color: var(--ink);
+}
+.portrait-stage {
+  position: relative;
+  isolation: isolate;
+  background: var(--green);
+  aspect-ratio: 1;
+}
+.portrait-topline {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  z-index: 1;
+  margin: 0;
+  color: var(--ink);
+  font-size: .625rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  overflow-wrap: anywhere;
+}
+.portrait-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center bottom;
+  position: relative;
+  transform-origin: 50% 100%;
+}
+.portrait-caption {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  padding: 15px 5px 6px;
+  line-height: 1.5;
+}
+.portrait-caption > * { min-width: 0; overflow-wrap: anywhere; }
+.portrait-caption strong {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -.015em;
+}
+.portrait-caption span {
+  font-size: .8125rem;
+  color: var(--ink);
+}
+@media (max-width: 800px) and (min-width: 601px) {
+  .designer-portrait { margin-top: 28px; padding: 8px; }
+  .portrait-topline { top: 12px; left: 12px; right: 12px; font-size: .5625rem; }
+  .portrait-caption { padding: 12px 3px 4px; gap: 3px 10px; }
+  .portrait-caption strong { font-size: 1rem; }
+}
+@media (max-width: 600px) {
+  .about-section { display: grid; grid-template-columns: minmax(0, 1fr); gap: 44px; }
+  .about-section > .experience-block { margin-top: 0; }
+  .designer-portrait { width: 100%; margin-top: 28px; padding: 9px; }
+  .portrait-topline { top: 14px; left: 14px; right: 14px; }
+  .portrait-caption { padding: 14px 4px 5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .designer-portrait, .portrait-image { transition: none; }
+}
