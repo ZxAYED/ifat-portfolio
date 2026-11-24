@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Apparel typography layout study</title>
+  <desc id="desc">An original flat t-shirt silhouette in dark green with the typographic artwork Ideas take shape, beside a separate print composition. This is a portfolio layout study rather than a photographed product.</desc>
+  <rect width="1200" height="900" fill="#DBDAD2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="66" fill="#172C24" font-size="18" letter-spacing="3">IDEAS, MADE TO BE WORN</text>
+    <text x="1136" y="66" text-anchor="end" fill="#172C24" font-size="16" letter-spacing="2">LAYOUT STUDY</text>
+    <circle cx="382" cy="445" r="310" fill="#C7D7C5"/>
+    <path d="M262 190l78-27c22 40 69 40 91 0l78 27 125 107-77 106-57-46v371H272V357l-57 46-77-106z" fill="#172C24"/>
+    <path d="M337 166c20 54 75 54 98 0M275 704h223M173 311l51 71M550 381l52-71" fill="none" stroke="#375345" stroke-width="6"/>
+    <g fill="#F2F0EF" text-anchor="middle">
+      <text x="386" y="351" font-size="67" font-weight="700" letter-spacing="-4">Ideas</text>
+      <text x="386" y="407" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-style="italic">take</text>
+      <text x="386" y="465" font-size="65" font-weight="700" letter-spacing="-4">shape.</text>
+    </g>
+    <g fill="#25A36F">
+      <circle cx="333" cy="518" r="20"/><rect x="371" y="498" width="40" height="40"/><path d="M449 496l24 42h-48z"/>
+    </g>
+    <text x="386" y="574" fill="#F2F0EF" text-anchor="middle" font-size="12" letter-spacing="2.5">A DIFFERENT PERSPECTIVE</text>
+    <g transform="rotate(-5 879 453)">
+      <rect x="701" y="193" width="352" height="520" fill="#F2F0EF"/>
+      <text x="736" y="245" fill="#172C24" font-size="15" letter-spacing="2">THE ARTWORK</text>
+      <g fill="#172C24" text-anchor="middle">
+        <text x="877" y="366" font-size="81" font-weight="700" letter-spacing="-5">Ideas</text>
+        <text x="877" y="435" font-family="Georgia, 'Times New Roman', serif" font-size="77" font-style="italic">take</text>
+        <text x="877" y="509" font-size="79" font-weight="700" letter-spacing="-5">shape.</text>
+      </g>
+      <g fill="#25A36F">
+        <circle cx="812" cy="565" r="22"/><rect x="855" y="543" width="44" height="44"/><path d="M940 541l26 46h-52z"/>
+      </g>
+      <path d="M736 639h282" stroke="#AEBBB1"/>
+      <text x="736" y="674" fill="#172C24" font-size="16" letter-spacing="1">TYPE, WITH PERSONALITY.</text>
+    </g>
+    <path d="M64 809H1136" stroke="#A1AFA0"/>
+    <text x="64" y="852" fill="#172C24" font-size="19">A little character goes a long way.</text>
+    <text x="1136" y="852" text-anchor="end" fill="#172C24" font-size="16" letter-spacing="2">APPAREL GRAPHICS</text>
+  </g>
+</svg>

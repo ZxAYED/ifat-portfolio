@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Label and packaging layout study</title>
+  <desc id="desc">A flat graphic composition explores label hierarchy, packaging structure, print marks and a green and ivory typographic label. This is an original presentation study, not a client product.</desc>
+  <rect width="1200" height="900" fill="#DFE7DF"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#172C24">
+    <text x="64" y="66" font-size="18" letter-spacing="3">SMALL LABEL. CLEAR STORY.</text>
+    <text x="1136" y="66" text-anchor="end" font-size="16" letter-spacing="2">LAYOUT STUDY</text>
+    <g stroke="#96AD9C" stroke-width="1.5" fill="none">
+      <path d="M100 200H505V733H100zM166 200V733M439 200V733M100 265H505M100 669H505"/>
+      <path d="M166 200v-47h273v47M166 733v47h273v-47"/>
+      <path d="M70 200h-20m10-10v20M535 200h20m-10-10v20M70 733h-20m10-10v20M535 733h20m-10-10v20"/>
+    </g>
+    <rect x="180" y="277" width="245" height="379" fill="#F2F0EF"/>
+    <text x="208" y="320" font-size="16" letter-spacing="2">LABEL SYSTEM</text>
+    <text x="204" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="57" font-style="italic">Clear</text>
+    <text x="204" y="449" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-style="italic">by design.</text>
+    <path d="M208 481h187" stroke="#172C24"/>
+    <path d="M208 512h176m-176 14h164m-164 14h181" stroke="#89968D" stroke-width="3"/>
+    <g fill="#172C24">
+      <rect x="208" y="581" width="3" height="34"/><rect x="215" y="581" width="7" height="34"/><rect x="226" y="581" width="2" height="34"/><rect x="233" y="581" width="5" height="34"/><rect x="243" y="581" width="3" height="34"/><rect x="250" y="581" width="8" height="34"/><rect x="263" y="581" width="4" height="34"/><rect x="272" y="581" width="2" height="34"/><rect x="280" y="581" width="6" height="34"/><rect x="290" y="581" width="3" height="34"/><rect x="298" y="581" width="7" height="34"/>
+    </g>
+    <circle cx="368" cy="598" r="24" fill="#25A36F"/>
+    <path d="M359 598h18m-9-9v18" stroke="#172C24" stroke-width="3"/>
+    <g transform="rotate(5 841 452)">
+      <rect x="629" y="143" width="424" height="629" fill="#172C24"/>
+      <rect x="645" y="159" width="392" height="597" fill="#F2F0EF"/>
+      <rect x="645" y="159" width="392" height="350" fill="#25A36F"/>
+      <text x="682" y="218" font-size="17" letter-spacing="2">PURPOSE IN EVERY DETAIL</text>
+      <text x="677" y="328" font-size="96" font-weight="700" letter-spacing="-6">Form</text>
+      <text x="680" y="405" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-style="italic">&amp; function.</text>
+      <path d="M681 460h320" stroke="#172C24" stroke-width="2"/>
+      <text x="682" y="552" font-size="20">Typography leads the eye.</text>
+      <text x="682" y="584" font-size="20">Composition tells the story.</text>
+      <path d="M682 620h306" stroke="#B4BFB5"/>
+      <text x="682" y="670" font-size="17" letter-spacing="2">LAYOUT / HIERARCHY</text>
+      <text x="682" y="706" font-size="17" letter-spacing="2">PRINT / CONSISTENCY</text>
+    </g>
+    <path d="M64 809H1136" stroke="#9EB0A2"/>
+    <text x="64" y="852" font-size="19">Made to be understood, before it is held.</text>
+    <text x="1136" y="852" text-anchor="end" font-size="16" letter-spacing="2">LABEL &amp; PACKAGING</text>
+  </g>
+</svg>

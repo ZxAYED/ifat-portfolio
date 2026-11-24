@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ifat visual identity layout study</title>
+  <desc id="desc">An original portfolio presentation study with an interlocking letter-i symbol, oversized typography, a specimen card and green and ivory color swatches.</desc>
+  <rect width="1200" height="900" fill="#172C24"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="66" fill="#F2F0EF" font-size="18" letter-spacing="3">IDENTITY, IN EVERY DETAIL</text>
+    <text x="1136" y="66" text-anchor="end" fill="#ACB9AE" font-size="16" letter-spacing="2">LAYOUT STUDY</text>
+    <rect x="64" y="116" width="632" height="650" fill="#25A36F"/>
+    <g fill="#172C24" transform="translate(196 176)">
+      <circle cx="72" cy="62" r="51"/>
+      <path d="M21 145h102v204c0 40 24 64 65 64h21v102h-27C80 515 21 455 21 351z"/>
+      <circle cx="298" cy="464" r="51"/>
+      <path d="M349 381H247V177c0-40-24-64-65-64h-21V11h27c102 0 161 60 161 164z"/>
+    </g>
+    <text x="98" y="730" fill="#172C24" font-size="18" letter-spacing="2">FORM · BALANCE · CHARACTER</text>
+    <rect x="730" y="116" width="406" height="386" fill="#F2F0EF"/>
+    <text x="770" y="174" fill="#172C24" font-size="17" letter-spacing="2">A PERSONAL PERSPECTIVE</text>
+    <text x="765" y="366" fill="#172C24" font-family="Georgia, 'Times New Roman', serif" font-size="166" font-style="italic" letter-spacing="-13">ifat.</text>
+    <path d="M770 408H1094" stroke="#172C24" stroke-width="1"/>
+    <text x="770" y="455" fill="#172C24" font-size="22">Graphic design, thoughtfully.</text>
+    <rect x="730" y="536" width="190" height="230" fill="#25A36F"/>
+    <rect x="946" y="536" width="190" height="230" fill="#DCE9D1"/>
+    <circle cx="825" cy="622" r="40" fill="#172C24"/>
+    <circle cx="1041" cy="622" r="40" fill="#25A36F"/>
+    <text x="755" y="732" fill="#172C24" font-size="18" letter-spacing="1">TEAL GREEN</text>
+    <text x="970" y="732" fill="#172C24" font-size="18" letter-spacing="1">SOFT IVORY</text>
+    <path d="M64 809H1136" stroke="#718477" stroke-width="1"/>
+    <text x="64" y="852" fill="#F2F0EF" font-size="19">An identity is a system. Every detail belongs.</text>
+    <text x="1136" y="852" text-anchor="end" fill="#ACB9AE" font-size="16" letter-spacing="2">TYPE / COLOR / FORM</text>
+  </g>
+</svg>

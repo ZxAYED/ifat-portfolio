@@ -1,0 +1,8 @@
+.requires-script,.menu-toggle,.theme-toggle,.play-controls fieldset,.grid-toggle,.grid-help{display:none}
+@media(max-width:1200px){
+ .site-header,.site-header.is-scrolled{position:static;display:block;height:auto;padding-block:18px}
+ .header-right{display:block}
+ .main-nav{display:flex;position:static;flex-direction:row;flex-wrap:wrap;gap:8px 16px;padding:16px 0 0;border:0;box-shadow:none;max-height:none;overflow:visible}
+ .main-nav>a,.main-nav>a[href="#process"]{display:inline-block;font-size:.9375rem;padding:6px 0}
+ .main-nav .nav-contact{margin:0;padding:6px 12px}
+}

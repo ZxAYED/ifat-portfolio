@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Campaign and social graphics layout study</title>
+  <desc id="desc">Four coordinated editorial artboards explore consistent typography and abstract geometric imagery across a campaign. This is an original portfolio layout study, not a published client campaign.</desc>
+  <rect width="1200" height="900" fill="#CBDDCA"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="66" fill="#172C24" font-size="18" letter-spacing="3">ONE IDEA. EVERY FORMAT.</text>
+    <text x="1136" y="66" text-anchor="end" fill="#172C24" font-size="16" letter-spacing="2">LAYOUT STUDY</text>
+    <rect x="64" y="116" width="508" height="650" fill="#25A36F"/>
+    <text x="104" y="173" fill="#172C24" font-size="17" letter-spacing="2">A NEW PERSPECTIVE</text>
+    <text x="96" y="305" fill="#172C24" font-size="111" font-weight="700" letter-spacing="-7">Make</text>
+    <text x="96" y="409" fill="#172C24" font-family="Georgia, 'Times New Roman', serif" font-size="117" font-style="italic" letter-spacing="-6">it matter.</text>
+    <g transform="translate(163 462)">
+      <path d="M0 0h145v145H0z" fill="#172C24"/>
+      <path d="M145 0c80 0 145 65 145 145H145z" fill="#F2F0EF"/>
+      <path d="M0 145h145v145C65 290 0 225 0 145z" fill="#F2F0EF"/>
+      <path d="M145 145h145v145H145z" fill="#172C24"/>
+    </g>
+    <rect x="608" y="116" width="528" height="306" fill="#172C24"/>
+    <text x="646" y="170" fill="#CFDED3" font-size="16" letter-spacing="2">THOUGHTFULLY CONNECTED</text>
+    <text x="645" y="251" fill="#F2F0EF" font-size="63" font-weight="700" letter-spacing="-3">Same idea.</text>
+    <text x="645" y="315" fill="#F2F0EF" font-family="Georgia, 'Times New Roman', serif" font-size="65" font-style="italic" letter-spacing="-2">Fresh expression.</text>
+    <path d="M646 365h302" stroke="#728E7D"/>
+    <circle cx="1048" cy="366" r="18" fill="#25A36F"/>
+    <rect x="608" y="458" width="248" height="308" fill="#F2F0EF"/>
+    <text x="638" y="507" fill="#172C24" font-size="15" letter-spacing="1">STAY CURIOUS.</text>
+    <g transform="translate(648 543)">
+      <path d="M0 0h84v84H0z" fill="#25A36F"/>
+      <path d="M84 0c46 0 84 38 84 84H84z" fill="#172C24"/>
+      <path d="M0 84h84v84C38 168 0 130 0 84z" fill="#172C24"/>
+      <path d="M84 84h84v84H84z" fill="#25A36F"/>
+    </g>
+    <rect x="888" y="458" width="248" height="308" fill="#E6ECDB"/>
+    <text x="916" y="510" fill="#172C24" font-size="15" letter-spacing="1">KEEP EXPLORING.</text>
+    <text x="912" y="591" fill="#172C24" font-size="57" font-weight="700" letter-spacing="-3">Good</text>
+    <text x="911" y="646" fill="#25A36F" font-family="Georgia, 'Times New Roman', serif" font-size="65" font-style="italic" letter-spacing="-3">ideas</text>
+    <text x="913" y="705" fill="#172C24" font-size="55" font-weight="700" letter-spacing="-3">travel.</text>
+    <path d="M64 809H1136" stroke="#9EB0A2"/>
+    <text x="64" y="852" fill="#172C24" font-size="19">Consistency makes a message recognizable.</text>
+    <text x="1136" y="852" text-anchor="end" fill="#172C24" font-size="16" letter-spacing="2">SOCIAL &amp; CAMPAIGN</text>
+  </g>
+</svg>
