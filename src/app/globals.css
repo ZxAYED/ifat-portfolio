@@ -1,0 +1,7 @@
+/* Tailwind utilities remain available without replacing the original reset.
+   Route styles preserve the exact live portfolio cascade. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+#portfolio-root { min-height: 100svh; }

@@ -1,0 +1,10 @@
+/* The original study intentionally has its own cascade. */
+@import "./styles.css";
+@import "./study.css";
+@import "./animation.css";
+@import "./scene-polish.css";
+@import "./dark-theme.css";
+
+@import "./responsive.css";
+
+@import "./motion-spacing.css";
