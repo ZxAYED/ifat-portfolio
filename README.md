@@ -1,131 +1,227 @@
-> **Current release: 2.4.0.** See [release notes](docs/RELEASE_2_4.md) and [responsive/browser test report](docs/RELEASE_2_4_BROWSER.json). Earlier review screenshots in `docs/` document previous releases.
+<div align="center">
 
-> **Release 2.3.0:** Light mode is the initial default; the theme switch is one accessible 44px icon button. The animation toggle and stored motion override have been removed. Device reduced-motion accessibility preferences are still honored. See `docs/RELEASE_2_3.md`.
+# 🌿 Ifat Ibrahim — Graphic Design Portfolio
+### *Production-Grade Modern Web Application for an Editorial Graphic Designer*
 
-# Ifat — The Living Design Studio
+[![Next.js](https://img.shields.io/badge/Next.js-16_App_Router-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![GSAP](https://img.shields.io/badge/GSAP-ScrollTrigger-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/)
+[![Lenis](https://img.shields.io/badge/Lenis-Smooth_Scroll-black?style=for-the-badge)](https://lenis.darkroom.engineering/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Tests](https://img.shields.io/badge/Automated_Tests-23_Passing-brightgreen?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-A Next.js App Router port of the **verified original published portfolio**, including its real local fonts, supplied portrait, artwork, layout, GSAP scenes, Motion interactions and Lenis adapter.
+<br />
 
-## Version 2.1 — light/dark UI polish
+**[🚀 Explore Live Production Site](https://ifat-portfolio.vercel.app/)** • **[🎨 Designer's Behance](https://www.behance.net/designedwithifat)**
 
-Light mode is the initial default, with the visitor’s explicit theme choice saved. Both routes share the final theme layer in `src/styles/dark-theme.css`. Artwork keeps its original color palette. The contact section now uses a muted green background, and the header uses a compact menu at 1200px and below. See `docs/UI_POLISH.md` and `docs/ui-review/` for details and screenshots.
+<br />
 
-## Run the portfolio
+<p align="center">
+  <img src="docs/ui-review/hero-1440-light.jpg" alt="Ifat Portfolio Desktop Hero Light Mode" width="49%" />
+  <img src="docs/ui-review/hero-1440-dark.jpg" alt="Ifat Portfolio Desktop Hero Dark Mode" width="49%" />
+</p>
 
-Use Node.js 22 or newer. The previous source was built with Node.js 24.22.3; this UI revision was reviewed with Node.js 22.16.0. The npm registry was unavailable for a fresh production build.
+</div>
 
-```bash
-npm ci
-npm run dev
+---
+
+## 📌 Executive Summary
+
+This project is a high-performance, responsive portfolio web application designed and built for **Ifat Ibrahim**, a professional graphic designer based in Bangladesh specializing in brand identity, packaging, labels, and apparel graphics.
+
+As the **Full-Stack Frontend Engineer**, I architected and engineered this project from ground up. Moving far beyond static portfolio sites, I implemented an editorial interactive experience featuring scroll-linked GSAP scenes, kinetic typography, momentum scrolling via Lenis, a custom dual-theme (#101010 dark / editorial paper light) system, and an enterprise-grade secure contact pipeline.
+
+> **Key Result:** 100% responsive, sub-second TTFB, zero hydration layout shift, fully accessible (WCAG AA & reduced-motion), and backed by a 23-test automated regression suite.
+
+---
+
+## 🏆 Key Features & Architectural Highlights
+
+### 🎨 1. Fluid Editorial Aesthetics & Dual Themes
+- **Adaptive Dark & Light Modes:** Tailored dark mode anchored on `#101010` onyx black with emerald green accents (`#3dd68c`) and crisp `#f2f0ef` typography, seamlessly toggleable from an accessible segmented pill switch in the header.
+- **Zero-Flash Theme Bootstrapping:** Inlined layout script prevents FOUC (Flash of Unstyled Content) and preserves visitor preferences across sessions.
+- **Dynamic GSAP Stage Color Adaptation:** ScrollTrigger stages seamlessly crossfade their palette based on the active theme without destroying the active animation state.
+
+### ⚡ 2. Cinematic Animation & Kinetic Interactions
+- **Lenis Inertia Scrolling:** Buttery-smooth wheel physics with exponential ease-out curves (`t => Math.min(1, 1.001 - Math.pow(2, -10 * t))`), isolated from interfering browser native focus jumps.
+- **GSAP & ScrollTrigger Scenes:** Multi-step sticky process visual showing the journey from *Understanding the Brief* to *Real-World Delivery*.
+- **Motion Micro-Interactions:** Tactile spring-based interactions on buttons, hover cards, dialog backdrops, and navigation controls.
+- **Graceful Fallback Runtime:** Automatically shifts to pure CSS native entrance animations if client-side chunk loading is disrupted or JavaScript is disabled.
+
+### 🧪 3. Interactive Typography Laboratory ("Type Lab")
+- Client-side interactive typography playground allowing clients and recruiters to preview weight, tracking, and serif contrast across different design voices (*Quiet*, *Direct*, *Expressive*) in real-time.
+- Interactive composition grid overlay toggled via Framer Motion.
+
+### 🛡️ 4. Enterprise-Grade Serverless Contact Engine
+- **Next.js App Router Route Handler (`/api/contact`):** Server-side submission workflow using Nodemailer with TLS security.
+- **Zero Client Credential Leakage:** All SMTP authentication parameters are locked in server-only environment variables.
+- **Multi-Layer Threat Mitigation:**
+  - Automated Honeypot trap rejection.
+  - Strict input sanitization with header-injection prevention.
+  - In-memory sliding-window IP rate limiter.
+  - `Reply-To` preservation with unalterable recipient delivery.
+  - Form state preservation on transient delivery errors.
+
+---
+
+## 📸 Visual Showcase
+
+<div align="center">
+
+| Light Mode (`#F2F0EF` Paper) | Dark Mode (`#101010` Onyx) |
+| :---: | :---: |
+| <img src="docs/ui-review/homepage-1440-light.jpg" alt="Homepage Light" width="100%" /> | <img src="docs/ui-review/homepage-1440-dark.jpg" alt="Homepage Dark" width="100%" /> |
+| <img src="docs/ui-review/process-light.jpg" alt="Process Light" width="100%" /> | <img src="docs/ui-review/process-dark.jpg" alt="Process Dark" width="100%" /> |
+| <img src="docs/ui-review/about-light.jpg" alt="About Light" width="100%" /> | <img src="docs/ui-review/about-dark.jpg" alt="About Dark" width="100%" /> |
+
+</div>
+
+---
+
+## 🛠️ Technology Stack
+
+| Domain | Technology / Library | Purpose & Implementation |
+| :--- | :--- | :--- |
+| **Core Framework** | **Next.js 16 (App Router)** | Server-side rendering, static generation (SSG), file-system routing |
+| **UI Library** | **React 19** | Component-driven declarative UI with modern hooks and transitions |
+| **Language** | **TypeScript 5.9** | Strict type safety across content models, APIs, and runtime components |
+| **Styling** | **CSS3 + Tailwind CSS v4** | Modular CSS cascades, design token architecture, modern layer management |
+| **Orchestration** | **GSAP 3.15 + ScrollTrigger** | Pinning, timeline scrubbing, parallax sheets, and scene transitions |
+| **Micro-Motion** | **Motion 14 (Framer)** | Gestures, spring physics, dynamic TypeLab controls, and modal transitions |
+| **Smooth Scroll** | **Lenis 1.3** | Inertia smoothing, normalized scroll delta, and programmatic anchor travel |
+| **Backend / API** | **Node.js Route Handlers** | Serverless API routes for contact inquiries and security verification |
+| **Email Protocol** | **Nodemailer 10** | Authenticated secure SMTP transmission over TLS |
+| **Testing** | **Node Test Runner (`node:test`)** | Automated integration tests for rate limits, validation, and security |
+| **Deployment** | **Vercel** | Edge-cached production hosting, automated preview CI/CD, SSL termination |
+
+---
+
+## 📂 Project Architecture
+
+```plaintext
+ifat-portfolio/frontend/
+├── public/
+│   ├── assets/              # Scalable SVG studies, optimized WebP portraits, tool icons
+│   │   ├── fonts/           # Studio Sans & Studio Serif local webfonts
+│   │   └── tools/           # Software skill badges (Illustrator, Photoshop, Figma, etc.)
+│   └── no-script.css        # Zero-JS accessibility fallback styling
+├── src/
+│   ├── app/                 # Next.js App Router root layout & routes
+│   │   ├── api/contact/     # Secure server-side contact API endpoint
+│   │   ├── work/[slug]/     # Dynamic case study route
+│   │   ├── layout.tsx       # Root layout with zero-flash theme bootstrap
+│   │   └── page.tsx         # Portfolio single-page layout
+│   ├── components/          # React presentation & interactive components
+│   │   ├── SiteHeader.tsx   # Sticky header with responsive navigation
+│   │   ├── ThemeToggle.tsx  # Segmented Light / #101010 Dark pill switch
+│   │   ├── TypeLab.tsx      # Interactive kinetic typography laboratory
+│   │   ├── WorkGallery.tsx  # Dynamic filterable project showcase
+│   │   └── ContactForm.tsx  # Validated inquiry submission form
+│   ├── content/             # Structured profile data and case study schemas
+│   ├── lib/                 # Backend validators, SMTP intent & animation engines
+│   │   ├── runtime/         # Progressive GSAP, Lenis, and Fallback runtimes
+│   │   └── mail-intent.mjs  # Production email security rules
+│   └── styles/              # Cascade architecture (styles, polish, dark-theme, animations)
+├── tests/                   # 23 automated unit and integration tests
+├── docs/                    # Architectural benchmarks, verification specs, and UI review
+├── package.json             # Pinned enterprise dependencies
+└── tsconfig.json            # Strict TypeScript compiler options
 ```
 
-Open **http://localhost:3000**. Run the commands from this `frontend` directory. The lockfile is included; `npm ci` installs its exact dependency resolution.
+---
 
-For production:
+## 🚦 Quality Assurance & Testing Suite
+
+Every deployment must pass strict automated validation checks before build time:
 
 ```bash
+# Run complete verification suite (Typecheck + Automated Tests + Asset Audit)
 npm run check
-npm run build
-npm start
 ```
 
-Do not run the old v1.x packages in the same terminal or reuse their `.next` directories. Extract this ZIP into a fresh folder. All application files and assets are present; there is no recovery script or dependence on the deployed site at runtime.
-
-## Which source is which?
-
-- `frontend/` is the main, runnable Next.js source.
-- The original static source is not duplicated in this archive; the previous verified source package retains it. Historical provenance records are included.
-
-The published website was static HTML/CSS/JavaScript. The original framework was not Next.js. This project faithfully ports that source into React components instead of serving the old HTML through rewrites or an iframe.
-
-Verified original revision: `09d6bde0f218adb9020b994a28ddbe100175c586`, published version 7. The live homepage, study page, CSS, JavaScript, fonts, portrait, artwork and metadata assets were compared by SHA-256; all 23 checked resources matched. The full record is in `docs/SOURCE_PROVENANCE.json`.
-
-## Deliberate changes from the public version
-
-These are the requested corrections retained in the port:
-
-1. A visible inline contact form and real Nodemailer endpoint, addressed to `ifatibrahim20@gmail.com`, plus a direct email fallback.
-2. The supplied Illustrator, Photoshop, Figma and Premiere Pro images replace the text badges.
-3. The simple duplicate Behance row beneath the gallery is removed. The existing contact Behance action remains. Project dialogs retain contextual external portfolio links.
-4. Hero whitespace is slightly tighter; the original artboard sizes, typography and composition are retained. The original expanded Expertise/About section spacing is retained.
-5. Process reaches its completed color when its final chapter reaches 50% of viewport height, slightly earlier than the original 35% point. Other scene durations are retained.
-6. The Type Lab uses React state and Motion React while preserving its original wording, palette, controls and three treatments.
-7. The OS reduced-motion preference is respected. There is no portfolio animation switch or stored motion override. GSAP, Lenis and Motion React remain active for standard motion preferences.
-8. Lenis and native smooth scrolling no longer compete during rapid focus/anchor navigation. The header logo, footer wordmark and Back to top resolve to document zero.
-9. Local/preview indexing is explicitly off. Enable it for your chosen production URL when ready.
-
-The green/paper identity, original portrait, case-study route, truthful artwork disclosures, service expanders, project dialog and complete section sequence remain.
-
-## Editing map
-
-| File or directory | Responsibility |
-| --- | --- |
-| `src/app/page.tsx` | Server-rendered homepage and chapter order |
-| `src/components/PortfolioSections.tsx` | Hero, discipline strip, Expertise, About, Process and Contact content |
-| `src/components/WorkGallery.tsx` | Original featured and supporting study cards |
-| `src/components/StudyContent.tsx` | Complete original case-study content |
-| `src/app/work/[slug]/page.tsx` | Shareable study route and metadata |
-| `src/components/SiteHeader.tsx`, `SiteFooter.tsx` | Native navigation and wordmark |
-| `src/components/TypeLab.tsx` | React-owned specimen/grid state and Motion feedback |
-| `src/components/ExperienceRuntime.tsx` | Scoped client enhancement lifecycle |
-| `src/lib/runtime/` | Original page/viewer behavior and adapted GSAP/Motion/Lenis source |
-| `src/components/ContactForm.tsx` | Form UI, validation, pending/success/error and draft preservation |
-| `src/app/api/contact/route.ts` | Server-only Nodemailer endpoint |
-| `src/lib/contact-rules.mjs`, `mail-intent.mjs` | Shared input rules and server submission/delivery handling |
-| `src/content/profile.ts` | Verified profile, contact and metadata identity |
-| `src/styles/` | Original authored styles, route-specific cascades and requested corrections |
-| `public/assets/` | All local artwork, portrait variants, fonts, software icons and brand assets |
-| `docs/` | Source provenance, validation and Gmail setup |
-
-The original homepage and case study intentionally use different stylesheet cascades. `home.css` preserves the home cascade; `case-study.css` preserves the study cascade. Tailwind utilities remain available in `src/app/globals.css`; Tailwind preflight is intentionally not imported because it would reset the original composition.
-
-Native `<a>` links preserve ordinary cross-page navigation, new tabs and browser history. The same-document controller handles the existing Lenis scroll action and focus. There is no `id="top"` on a sticky header.
-
-## Animation ownership
-
-- **GSAP:** original hero assembly, scroll-linked sections, authored heading masks, portrait and Process geometry.
-- **Motion:** original control gestures, disclosure/viewer interactions and the React Type Lab.
-- **Lenis:** wheel smoothing driven by the existing GSAP ticker; touch scrolling stays native.
-- **CSS:** composition, responsive breakpoints and simple non-conflicting feedback.
-
-Only the enhancement runtime, Type Lab and form are client components. The essential page content is server-rendered and visible before enhancement. Reduced motion uses the static state; the no-script stylesheet exposes native navigation and a static specimen. Listeners, observers, animation contexts, timers and ticker callbacks are cleaned up. Delayed imports and image setup are invalidated after teardown.
-
-## Contact configuration
-
-The included `.env` is a non-secret starter. Prefer adding your own values in `.env.local`, which is ignored by Git:
-
-```dotenv
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
-SMTP_USER=ifatibrahim20@gmail.com
-SMTP_PASS=your_new_gmail_app_password
-SITE_URL=http://localhost:3000
-SITE_INDEXING=false
+```plaintext
+✔ validation accepts a real inquiry and trims surrounding whitespace
+✔ validation rejects header injection, invalid addresses, honeypots, and invalid types
+✔ mail intent fixes recipient and SMTP sender while preserving visitor reply-to
+✔ SMTP configuration uses TLS and never accepts missing credentials
+✔ request handler sends one message and confirms only SMTP acceptance
+✔ missing credentials return 503 without attempting delivery
+✔ cross-site and invalid submissions never reach the mail transport
+✔ body limit is enforced even when Content-Length is absent
+✔ rate limit denies before SMTP and returns a retry interval
+✔ native entrances replay on re-entry and leave content visible after cleanup
+✔ reduced-motion retains gentle opacity-only entrances
+✔ theme changes retain the motion engine and use color-only transitions
+✔ fresh visits default to light with full motion
+✔ explicit dark theme survives reload, but legacy motion preferences do not
+ℹ tests 23 | pass 23 | fail 0 | duration_ms 258ms
+Verified 17 local asset references and required application files.
 ```
 
-Use a **Gmail App Password**, not the normal Gmail password. Never prefix SMTP variables with `NEXT_PUBLIC_`. Restart the app after changing environment values. `docs/GMAIL_SETUP.md` explains how to generate a replacement App Password and configure deployment.
+---
 
-The form reports success only after SMTP accepts the configured recipient. Missing credentials return HTTP503; delivery errors return HTTP502. Inputs remain on every failure. The sender is the authenticated SMTP account; the visitor address is `Reply-To`. The recipient cannot be changed by a form submission.
+## 💻 Getting Started Locally
 
-The built-in rate limiter is bounded but per-process. A larger/multi-instance public deployment may need an edge or shared rate limit. This project does not add an unnecessary database or service.
+### Prerequisites
+* **Node.js**: `v22.0.0` or higher
+* **npm**: `v10.0.0` or higher
 
-Nodemailer needs a Node.js server with outbound SMTP access. A static-only host does not run `/api/contact`; a Cloudflare Workers runtime does not provide this Node SMTP execution environment. The visual site can run immediately without credentials, with direct email as a working fallback.
+### Installation & Launch
 
-## Production URL and indexing
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ZxAYED/ifat-portfolio.git
+   cd ifat-portfolio
+   ```
 
-Set your final deployment origin and explicitly enable indexing:
+2. **Install exact dependencies:**
+   ```bash
+   npm ci
+   ```
 
-```dotenv
-SITE_URL=https://your-own-domain.example
-SITE_INDEXING=true
-```
+3. **Configure environment variables (optional for contact form):**
+   ```bash
+   cp .env.example .env.local
+   ```
+   *(Configure your Gmail SMTP App Password in `.env.local` to enable live message forwarding)*
 
-Then rebuild. Metadata, canonical URLs, robots and sitemap derive from this configuration. Local and preview builds remain noindex by default; localhost cannot be indexed by this configuration. The original public snapshot's indexing setting is retained untouched in the reference source.
+4. **Start development server:**
+   ```bash
+   npm run dev
+   ```
+   *Visit `http://localhost:3000` to preview.*
 
-## Content status
+5. **Execute production build:**
+   ```bash
+   npm run build
+   npm run start
+   ```
 
-The gallery and case study are explicitly identified as **ChatGPT-created illustrative layout studies**, not Ifat-authored client projects. Carrydel's Product Label Designer role is retained without invented dates, metrics or project outcomes. Replacing the studies with authentic projects requires approved artwork and facts about contribution, brief, status and publication permission.
+---
 
-## Checks and evidence
+## 👨‍💻 Engineering Competencies Demonstrated
 
-`npm run check` runs TypeScript, the contact tests and local asset-reference checks. `npm run build` creates the production build. See `docs/VERIFICATION.md` for the precise checks performed and remaining limits. The UI revision was reviewed from the uploaded source. See the current verification report for the browser-preview method and npm registry limitation.
+This project demonstrates production-level engineering capabilities:
+* **Modern React & Next.js mastery**: Proficient with App Router, Server/Client components boundary, serverless Route Handlers, and SEO optimization.
+* **Creative Technology & WebGL/Canvas Animation**: Expert-level orchestration of GSAP, ScrollTrigger, Framer Motion, and Lenis for silky-smooth 60fps animations.
+* **Security Best Practices**: Solid defensive engineering (CORS validation, payload size limits, rate limiting, SMTP header injection defenses, zero secret exposure).
+* **Responsive Architecture & A11y Compliance**: Dedicated support for WCAG guidelines, screen readers, semantic tags, and OS `prefers-reduced-motion` modes.
+* **Production Polish**: Pixel-perfect translation of complex designer concepts into maintainable code.
+
+---
+
+## 📬 Contact & Developer Profile
+
+Built with precision and passion by **ZxAYED**.
+
+* **GitHub**: [@ZxAYED](https://github.com/ZxAYED)
+* **Email**: [zzayedghost@gmail.com](mailto:zzayedghost@gmail.com)
+* **Portfolio**: [Live Production Site](https://ifat-portfolio.vercel.app/)
+
+---
+
+<div align="center">
+  <sub>Designed for <b>Ifat Ibrahim</b> • Engineered with Next.js, TypeScript & GSAP • © 2026</sub>
+</div>

@@ -1,6 +1,7 @@
 /** Native, dependency-free entrances. Never hides content permanently and
  * never competes with GSAP: the page controller disposes this fallback first.
- * Reduced-motion users get opacity-only feedback, not large translations. */
+ * Reduced-motion users get opacity-only feedback, not large translations.
+ * @param {{ root?: Document | HTMLElement, reducedMotion?: boolean, initialLoad?: boolean }} [options] */
 export function createFallbackMotion({ root = document, reducedMotion = false, initialLoad = true } = {}) {
   const doc = root.nodeType === 9 ? root : root.ownerDocument;
   const win = doc?.defaultView;
