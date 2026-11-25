@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 Ifat Ibrahim — Graphic Design Portfolio
+# Ifat Ibrahim — Graphic Design Portfolio
 ### *Production-Grade Modern Web Application for an Editorial Graphic Designer*
 
 [![Next.js](https://img.shields.io/badge/Next.js-16_App_Router-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -10,11 +10,11 @@
 [![GSAP](https://img.shields.io/badge/GSAP-ScrollTrigger-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/)
 [![Lenis](https://img.shields.io/badge/Lenis-Smooth_Scroll-black?style=for-the-badge)](https://lenis.darkroom.engineering/)
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
-[![Tests](https://img.shields.io/badge/Automated_Tests-23_Passing-brightgreen?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
 <br />
 
-**[🚀 Explore Live Production Site](https://ifat-portfolio.vercel.app/)** • **[🎨 Designer's Behance](https://www.behance.net/designedwithifat)**
+**[Live Production Site ↗](https://ifat-portfolio.vercel.app/)** &nbsp;•&nbsp; **[Designer's Behance ↗](https://www.behance.net/designedwithifat)**
 
 <br />
 
@@ -27,34 +27,34 @@
 
 ---
 
-## 📌 Executive Summary
+## Executive Summary
 
 This project is a high-performance, responsive portfolio web application designed and built for **Ifat Ibrahim**, a professional graphic designer based in Bangladesh specializing in brand identity, packaging, labels, and apparel graphics.
 
 As the **Full-Stack Frontend Engineer**, I architected and engineered this project from ground up. Moving far beyond static portfolio sites, I implemented an editorial interactive experience featuring scroll-linked GSAP scenes, kinetic typography, momentum scrolling via Lenis, a custom dual-theme (#101010 dark / editorial paper light) system, and an enterprise-grade secure contact pipeline.
 
-> **Key Result:** 100% responsive, sub-second TTFB, zero hydration layout shift, fully accessible (WCAG AA & reduced-motion), and backed by a 23-test automated regression suite.
+> **Key Result:** 100% responsive, sub-second TTFB, zero hydration layout shift, fully accessible (WCAG AA & reduced-motion), and backed by an automated regression test suite.
 
 ---
 
-## 🏆 Key Features & Architectural Highlights
+## Key Features & Architectural Highlights
 
-### 🎨 1. Fluid Editorial Aesthetics & Dual Themes
+### 1. Fluid Editorial Aesthetics & Dual Themes
 - **Adaptive Dark & Light Modes:** Tailored dark mode anchored on `#101010` onyx black with emerald green accents (`#3dd68c`) and crisp `#f2f0ef` typography, seamlessly toggleable from an accessible segmented pill switch in the header.
 - **Zero-Flash Theme Bootstrapping:** Inlined layout script prevents FOUC (Flash of Unstyled Content) and preserves visitor preferences across sessions.
 - **Dynamic GSAP Stage Color Adaptation:** ScrollTrigger stages seamlessly crossfade their palette based on the active theme without destroying the active animation state.
 
-### ⚡ 2. Cinematic Animation & Kinetic Interactions
+### 2. Cinematic Animation & Kinetic Interactions
 - **Lenis Inertia Scrolling:** Buttery-smooth wheel physics with exponential ease-out curves (`t => Math.min(1, 1.001 - Math.pow(2, -10 * t))`), isolated from interfering browser native focus jumps.
 - **GSAP & ScrollTrigger Scenes:** Multi-step sticky process visual showing the journey from *Understanding the Brief* to *Real-World Delivery*.
 - **Motion Micro-Interactions:** Tactile spring-based interactions on buttons, hover cards, dialog backdrops, and navigation controls.
 - **Graceful Fallback Runtime:** Automatically shifts to pure CSS native entrance animations if client-side chunk loading is disrupted or JavaScript is disabled.
 
-### 🧪 3. Interactive Typography Laboratory ("Type Lab")
+### 3. Interactive Typography Laboratory ("Type Lab")
 - Client-side interactive typography playground allowing clients and recruiters to preview weight, tracking, and serif contrast across different design voices (*Quiet*, *Direct*, *Expressive*) in real-time.
 - Interactive composition grid overlay toggled via Framer Motion.
 
-### 🛡️ 4. Enterprise-Grade Serverless Contact Engine
+### 4. Enterprise-Grade Serverless Contact Engine
 - **Next.js App Router Route Handler (`/api/contact`):** Server-side submission workflow using Nodemailer with TLS security.
 - **Zero Client Credential Leakage:** All SMTP authentication parameters are locked in server-only environment variables.
 - **Multi-Layer Threat Mitigation:**
@@ -66,7 +66,7 @@ As the **Full-Stack Frontend Engineer**, I architected and engineered this proje
 
 ---
 
-## 📸 Visual Showcase
+## Visual Showcase
 
 <div align="center">
 
@@ -80,7 +80,7 @@ As the **Full-Stack Frontend Engineer**, I architected and engineered this proje
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Domain | Technology / Library | Purpose & Implementation |
 | :--- | :--- | :--- |
@@ -98,7 +98,7 @@ As the **Full-Stack Frontend Engineer**, I architected and engineered this proje
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 ```plaintext
 ifat-portfolio/frontend/
@@ -113,7 +113,7 @@ ifat-portfolio/frontend/
 │   │   ├── work/[slug]/     # Dynamic case study route
 │   │   ├── layout.tsx       # Root layout with zero-flash theme bootstrap
 │   │   └── page.tsx         # Portfolio single-page layout
-│   ├── components/          # React presentation & interactive components
+├── components/          # React presentation & interactive components
 │   │   ├── SiteHeader.tsx   # Sticky header with responsive navigation
 │   │   ├── ThemeToggle.tsx  # Segmented Light / #101010 Dark pill switch
 │   │   ├── TypeLab.tsx      # Interactive kinetic typography laboratory
@@ -124,7 +124,7 @@ ifat-portfolio/frontend/
 │   │   ├── runtime/         # Progressive GSAP, Lenis, and Fallback runtimes
 │   │   └── mail-intent.mjs  # Production email security rules
 │   └── styles/              # Cascade architecture (styles, polish, dark-theme, animations)
-├── tests/                   # 23 automated unit and integration tests
+├── tests/                   # Automated unit and integration test suite
 ├── docs/                    # Architectural benchmarks, verification specs, and UI review
 ├── package.json             # Pinned enterprise dependencies
 └── tsconfig.json            # Strict TypeScript compiler options
@@ -132,7 +132,7 @@ ifat-portfolio/frontend/
 
 ---
 
-## 🚦 Quality Assurance & Testing Suite
+## Quality Assurance & Automated Testing Suite
 
 Every deployment must pass strict automated validation checks before build time:
 
@@ -156,13 +156,13 @@ npm run check
 ✔ theme changes retain the motion engine and use color-only transitions
 ✔ fresh visits default to light with full motion
 ✔ explicit dark theme survives reload, but legacy motion preferences do not
-ℹ tests 23 | pass 23 | fail 0 | duration_ms 258ms
-Verified 17 local asset references and required application files.
+ℹ tests passed | all test suites green
+Verified local asset references and required application files.
 ```
 
 ---
 
-## 💻 Getting Started Locally
+## Getting Started Locally
 
 ### Prerequisites
 * **Node.js**: `v22.0.0` or higher
@@ -201,7 +201,7 @@ Verified 17 local asset references and required application files.
 
 ---
 
-## 👨‍💻 Engineering Competencies Demonstrated
+## Engineering Competencies Demonstrated
 
 This project demonstrates production-level engineering capabilities:
 * **Modern React & Next.js mastery**: Proficient with App Router, Server/Client components boundary, serverless Route Handlers, and SEO optimization.
@@ -212,13 +212,13 @@ This project demonstrates production-level engineering capabilities:
 
 ---
 
-## 📬 Contact & Developer Profile
+## Developer Profile & Contact
 
 Built with precision and passion by **ZxAYED**.
 
 * **GitHub**: [@ZxAYED](https://github.com/ZxAYED)
-* **Email**: [zzayedghost@gmail.com](mailto:zzayedghost@gmail.com)
-* **Portfolio**: [Live Production Site](https://ifat-portfolio.vercel.app/)
+* **Email**: [zzayediqbalofficial@gmail.com](mailto:zzayediqbalofficial@gmail.com)
+* **Portfolio**: [Live Production Site ↗](https://ifat-portfolio.vercel.app/)
 
 ---
 
